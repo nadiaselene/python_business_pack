@@ -3,7 +3,7 @@
 # O usuário deve informar o valor de compra, e a função deve aplicar automaticamente o percentual de desconto correspondente à faixa.
 # O programa deve exibir o preço final formatado e o percentual aplicado.
 
-preço = float(input("Informe o preço do produto: "))
+preço = int(input("Informe o preço do produto: "))
 
 categoria = {
         range(0,11) : 0.1,
